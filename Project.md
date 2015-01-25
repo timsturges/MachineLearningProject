@@ -53,14 +53,14 @@ Here, the caret library is invoked, and the model is trained. The training data
 is split into its own training and testing subset, which is used to validate 
 the model, and estimate expected out-of-sample error rate. The seed is set for 
 reproducibility. Due to the nature of the measurements and the exercise being 
-studied (a dumbbell curl), a linear model would not be appropriate (LDA 
-notwithstanding). The first model attempted was a simple decision tree which 
-yielded spectacularly poor results (48% accuracy), so the next attempt used a 
-"treebag" model, with 5-fold cross-validation. Although computationally 
-intensive, the results are outstanding: nearly 99% prediction accuracy! The 
-predicted out-of-sample error rate is about 1% This was only the second model 
-attempted, and it is unlikely that other models will predict with better 
-accuracy by a significant margin, so it is satisfactory for the project task. 
+studied (a dumbbell curl), a linear model would not be appropriate. The first 
+model attempted was a simple decision tree which yielded spectacularly poor 
+results (48% accuracy), so the next attempt used a "treebag" model, with 10-fold 
+cross-validation. Although computationally intensive, the results are 
+outstanding: nearly 99% prediction accuracy! The out-of-sample error rate is 
+about 1% This was only the second model attempted, and it is unlikely that other 
+models will predict with better accuracy by a significant margin, so it is 
+satisfactory for the project task. 
 
 
 ```r
